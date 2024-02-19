@@ -1,0 +1,13 @@
+import turtle
+t = turtle.Turtle()
+t.shape("turtle")
+squareLength = int(turtle.textinput("", "정사각형 길이 : "))
+t.write(str(squareLength) + "의 길이로 정사각형을 그릴게요")
+t.fd(squareLength)
+t.lt(90)
+t.fd(squareLength)
+t.lt(90)
+t.write(t.pos())
+t.fd(squareLength)
+t.lt(90)
+t.fd(squareLength)
