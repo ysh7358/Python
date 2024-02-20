@@ -94,7 +94,7 @@ print("1부터" , f, "까지의 짝수 합 : ", sum2)
 print("1부터" , f, "까지의 짝수 곱 : ", num2)
 print("1부터" , f, "까지의 합 : ", sum)
 print("1부터" , f, "까지의 곱 : ", num)
-'''
+
 #농구선수 10명의 키를 입력받아서 키의 총합을 출력
 sum = 0
 maxheight = 0
@@ -121,3 +121,5 @@ for i in range(10) :
 print("농구선수의 키의 총합은 ",sum,"cm 입니다")
 print("가장 작은 키를 가진 선수는 ", index2, "번째 선수로," ,minheight, "cm 입니다")
 print("가장 큰 키를 가진 선수는 ", index1, "번째 선수로," ,maxheight, "cm 입니다")
+'''
+
