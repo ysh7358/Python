@@ -33,29 +33,3 @@ while(winCount != 3) :
 
 print("최종 전적은 " + str(gameCount) + "전 " + str(winCount) + "승 " + str(drawCount) + "무 " + str(loseCount) + "패") #전적
 print("승률은 " + str((winCount/gameCount) * 100) + "%입니다.") #최종 승률
-
-
-
-
-'''
-# 가장 간단하고 추천!!!
-
-import random
-
-a =[ "가위", "바위", "보"]
-
-r = random.choice(a)
-
-print(r)
-
-s = input("가위, 바위, 보:")
-
-if r == s :
-    print("비김")
-
-elif (r == "가위" and s == "보") or (r == "바위" and s == "가위") or (r == "보" and s == "바위"):
-     print("컴퓨터 승!")       
-    
-else:
-    print("플레이어 승!")
-'''
